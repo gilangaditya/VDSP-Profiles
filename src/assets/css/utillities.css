@@ -1,0 +1,214 @@
+:root{
+    --bg-color-1: #F8F8F8;
+    --bg-color-2: #4A4A4A;
+    --bg-color-3: #9FD685;
+    --bg-color-4: #0D1117;
+    --bg-color-5: #753FC7;
+    --bg-color-6: #12181F;
+    --font-color-1: #414141;
+    --font-color-2: #9F9F9F;
+    --font-color-3: #ffffff;
+    --font-size-64: 64px;
+    --font-size-16: 16px;
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: var(--font-color-3) !important;
+}
+
+.bg-glassmorph{
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    
+}
+
+.box-shadow-1{
+  box-shadow: #753FC7;
+}
+
+.border-bottom-1{
+  border-bottom: 2px #753FC7 solid;
+  width: 400px;
+}
+
+.my-50{
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+
+.btn-career{
+  background-color: var(--bg-color-2) !important;
+  color: #ffffff !important;
+  width: 250px !important;
+}
+
+.fs-64{
+  font-size: var(--font-size-64) !important;
+}
+
+.fs-16{
+  font-size: var(--font-size-16);
+}
+
+.color-palette-1{
+    color: var(--font-color-1);
+}
+
+.color-palette-2{
+    color: var(--font-color-2) !important;
+}
+
+.color-primary{
+  color: var(--font-color-3) !important;
+}
+
+.bg-color-1{
+    background-color: var(--bg-color-1) !important;
+}
+
+.bg-color-2{
+  background-color: #ffffff;
+}
+
+.bg-color-3{
+  background-color: var(--bg-color-3) !important;
+}
+
+.bg-color-5{
+  background-color: var(--bg-color-4);
+}
+
+.bg-color-6{
+  background-color: var(--bg-color-5) !important;
+}
+
+
+body{
+  background-color: var(--bg-color-4) !important;
+  color: var(--font-color-3) !important;
+}
+
+nav li a{
+  color: var(--font-color-3) !important;
+}
+
+.active{
+  border-bottom: 1px solid #753FC7 !important;
+}
+
+.card-text small{
+  color: var(--font-color-3) !important;
+}
+
+.content-hero{
+  height: 659px;
+}
+
+.discuse{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.card{
+    margin-top: 5%;
+    margin-bottom: 50%;
+}
+
+.btn-work{
+    padding: 20px !important;
+    width: 200px;
+    background-color: var(--bg-color-5) !important;
+    color: var(--bg-color-1) !important;
+}
+
+/* client list */
+.marquee-container {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    height: 110px;
+    text-align: center;
+    /* background-color: var(--bg-color-1); */
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  }
+
+  .marquee-container:nth-child(3) {
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    height: 110px;
+    text-align: center;
+    /* background-color: var(--bg-color-1); */
+  }
+
+  .marquee-container:nth-child(4) {
+    margin-right: 10px;
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    height: 110px;
+    text-align: center;
+    /* background-color: var(--bg-color-1); */
+  }
+ 
+  .marquee-content {
+    height: 140px;
+    display: flex;
+    text-align: center;
+    animation: marquee 20s linear infinite;
+  }
+ 
+  .marquee-item {
+    flex: 0 0 auto;
+    height: 120px;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #495057;
+    
+  }
+
+  .marquee-item div{
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    
+  }
+ 
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+ 
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+ 
+  /* Optional: Pause animation on hover */
+  .marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+  }
+
+  .carousel{
+    height: 450px !important;
+  }
