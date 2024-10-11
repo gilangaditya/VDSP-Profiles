@@ -4,17 +4,17 @@
         <section class="hero mb-5 bg-color-4">
          <div class="content-hero mb-5 pb-5 container justify-content-between d-flex align-items-center">
              <div class="">
-                 <h1 class="title fs-64 pb-5 fw-bold color-primary">
-                     Vihara <br>Dharma Surya Putra
+                 <h1 class="title fs-64 mt-5 pt-5 pb-3 fw-semibold">
+                     Vihara <br>Dhamma Surya <br>Putra
                  </h1>
                  <div class="play-button gap-4">
                      <p class="fs-5 fw-semibold">
                       Buddhānubhāvena Sotthi Hotu
                      </p>
-                     <p>Selamat datang di media komunikasi resmi Vihara Dharma Surya Putra Temanggung.</p>
+                     <p>Selamat datang di media komunikasi resmi Vihara Dhamma Surya Putra Temanggung.</p>
                      <div class="mt-5">
                       <a href="" type="button" class="btn border-0 bg-color-6 shadow color-palette-1 rounded-circle"><i class="fa-solid fa-play"></i></a>
-                      <a href="" type="button" class="btn ms-5 bg-color-6 border-0 rounded-pill shadow color-palette-1">Gabung bersama kami</a>
+                      <a href="" type="button" class="btn ms-5 bg-color-6 border-0 rounded-pill shadow color-palette-4">Gabung bersama kami</a>
                      </div>
                  </div>
              </div>
@@ -36,18 +36,18 @@
                    </div>
                    <div class="col-md-7">
                      <div class="card-body color-primary">
-                       <h3 class="card-title fw-bold">Vihara Dharma Surya Putra?</h3>
+                       <h3 class="card-title fw-bold">Vihara Dhamma Surya Putra?</h3>
                        <div class="summary pt-3 pb-3">
                          <div class="summary-header d-flex gap-3">
-                             <p class="card-text">Vihara Dharma Surya Putra</p>
+                             <p class="card-text">Vihara Dhamma Surya Putra</p>
                          </div>
                          <p class="card-text"><small class="text-body-secondary">
-                              Terletak di Kecamatan Kaloran, Kabupaten Temanggung, Vihara Dharma Surya Putra merupakan tempat ibadah dan pusat spiritual bagi umat Buddha. Vihara ini dikelilingi oleh pemandangan alam yang asri dan tenang, memberikan suasana yang ideal untuk meditasi, refleksi, serta kegiatan keagamaan. </small></p>
+                              Terletak di Kecamatan Kaloran, Kabupaten Temanggung, Vihara Dhamma Surya Putra merupakan tempat ibadah dan pusat spiritual bagi umat Buddha. Vihara ini dikelilingi oleh pemandangan alam yang asri dan tenang, memberikan suasana yang ideal untuk meditasi, refleksi, serta kegiatan keagamaan. </small></p>
                        </div>
                        <div class="summary pt-3 pb-3">
                          <p class="card-text"><small class="text-body-secondary">
                           {{ isExpanded ? description : truncateText(description, 400) }}
-                            <button class="btn btn-secondary" @click="isExpanded = !isExpanded">
+                            <button class="btn bg-color-6" @click="isExpanded = !isExpanded">
                               {{ isExpanded ? 'Lihat Lebih Sedikit' : 'Lihat Lebih Banyak' }}
                             </button></small></p>
                        </div>
@@ -60,7 +60,7 @@
      <section class="mt-5 pt-5 pb-5 mb-5">
       <div class="container mt-5 mb-5">
         <div class="subhead border-bottom-1 ms-auto">
-            <h2 class="fw-bold text-end">Tentang Vihara</h2>
+            <h2 class="fw-bold text-end">Acara Vihara</h2>
          </div>
       </div>
          <div class="discuse ">
@@ -91,8 +91,8 @@
    <div class="container">
      <div class="row justify-content-md-center">
        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-         <h2 class="fs-6 text-secondary mb-2 text-uppercase text-center">Our Customers </h2>
-         <h2 class="mb-4 display-5 text-center">are our biggest fans</h2>
+         <h2 class="fs-6 text-secondary mb-2 text-uppercase text-center">Kegiatan</h2>
+         <h2 class="mb-4 display-5 text-center">Ceramah Dhamma Terbaru</h2>
          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
        </div>
      </div>
@@ -121,60 +121,12 @@
        </div>
      </div>
    </div>
-   <div class="container rounded-pill marquee-container overflow-hidden">
-     <div class="row marquee-content gy-4">
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid" src="./assets/img/customer-img/img 2.svg" alt="">
-         </div>
-       </div>
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid"  src="./assets/img/customer-img/img 3.svg" alt="">
-         </div>
-       </div>
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid" src="./assets/img/customer-img/img 4.svg" alt="">
-         </div>
-       </div>
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid" src="./assets/img/customer-img/img 5.svg" alt="">
-         </div>
-       </div>
-     </div>
-   </div>
-   <div class="container rounded-pill marquee-container overflow-hidden">
-     <div class="row marquee-content gy-4">
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid" src="./assets/img/customer-img/img 6.svg" alt="">
-         </div>
-       </div>
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid"  src="./assets/img/customer-img/income.svg" alt="">
-         </div>
-       </div>
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid" src="./assets/img/customer-img/jawa pos.svg" alt="">
-         </div>
-       </div>
-       <div class="marquee-item col-6 col-md-4 col-xl-3 text-center">
-         <div class="">
-           <img class="img-fluid" src="./assets/img/customer-img/lazada.svg" alt="">
-         </div>
-       </div>
-     </div>
-   </div>
  </section>
  <section>
    <div class="container mt-5 mb-5">
      <div class="our-teams text-center">
        <h3>Pengurus</h3>
-       <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+       <hr class="w-50 mx-auto mb-5 mb-xl-9 bg-color-6">
      </div>
    </div>
    <div class="container-fluid mt-5 mb-5">
@@ -249,13 +201,13 @@
    <div class="container mt-5 mb-5">
      <div class="row justify-content-between align-items-center">
        <div class="side-right col-md-6">
-         <h1 class="fw-bold pb-5">Join Our Team</h1>
+         <h1 class="fw-bold pb-5">Bergabung SMB?</h1>
          <img src="../assets/img/Rectangle 23.svg" alt="img teams" class="img-fluid">
 
        </div>
        <div class="side-left col-md-6">
-         <p class="pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quaerat tenetur velit soluta consequatur vel rem facere accusamus beatae exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, exercitationem?</p>
-         <button class="btn btn-work rounded-0" href="">Apply</button>
+         <p class="pb-3">Yuk anak buddhis temanggung, ikuti dan bergabung kelas sekolah minggu agama buddha di vihara kami </p>
+         <button class="btn btn-work rounded-0" href="">Daftar</button>
        </div>
      </div>
    </div>
@@ -272,10 +224,11 @@ import Navbar from '@/components/Navbar.vue';
     components: {
       Navbar,
       Footer,
+      
     },
     data() {
     return {
-      description: 'Sebagai salah satu vihara yang berperan penting di wilayah Temanggung, Vihara Dharma Surya Putra menjadi destinasi bagi mereka yang ingin mendekatkan diri kepada ajaran Buddha dan memperdalam praktik spiritual. Selain itu, vihara ini juga menjadi pusat kegiatan sosial, seperti pembinaan umat, pengajaran Dhamma, dan upacara keagamaan.Vihara ini didirikan dengan tujuan untuk melestarikan dan menyebarkan nilai-nilai kebajikan, cinta kasih, dan kedamaian dalam masyarakat. Baik bagi umat Buddha maupun pengunjung lainnya, Vihara Dharma Surya Putra terbuka untuk semua yang mencari ketenangan batin dan bimbingan spiritual.Dengan lokasinya di Kabupaten Temanggung yang sejuk dan damai, Vihara Dharma Surya Putra menawarkan pengalaman spiritual yang mendalam di tengah-tengah alam yang menenangkan. Bagi Anda yang sedang berziarah atau sekadar berkunjung, vihara ini memberikan keteduhan dan kedamaian hati.',
+      description: 'Sebagai salah satu vihara yang berperan penting di wilayah Temanggung, Vihara Dhamma Surya Putra menjadi destinasi bagi mereka yang ingin mendekatkan diri kepada ajaran Buddha dan memperdalam praktik spiritual. Selain itu, vihara ini juga menjadi pusat kegiatan sosial, seperti pembinaan umat, pengajaran Dhamma, dan upacara keagamaan.Vihara ini didirikan dengan tujuan untuk melestarikan dan menyebarkan nilai-nilai kebajikan, cinta kasih, dan kedamaian dalam masyarakat. Baik bagi umat Buddha maupun pengunjung lainnya, Vihara Dhamma Surya Putra terbuka untuk semua yang mencari ketenangan batin dan bimbingan spiritual.Dengan lokasinya di Kabupaten Temanggung yang sejuk dan damai, Vihara Dhamma Surya Putra menawarkan pengalaman spiritual yang mendalam di tengah-tengah alam yang menenangkan. Bagi Anda yang sedang berziarah atau sekadar berkunjung, vihara ini memberikan keteduhan dan kedamaian hati.',
       isExpanded: false
     };
   },

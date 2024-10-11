@@ -8,14 +8,20 @@
     --font-color-1: #414141;
     --font-color-2: #9F9F9F;
     --font-color-3: #ffffff;
+    --font-color-4: #000000;
     --font-size-64: 64px;
     --font-size-16: 16px;
 }
 
+.font-playfair {
+  font-family: "Playfair Display SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 *{
     font-family: 'Poppins', sans-serif;
-    color: var(--font-color-3) !important;
+    color: var(--font-color-4) !important;
 }
 
 .bg-glassmorph{
@@ -33,7 +39,7 @@
 }
 
 .border-bottom-1{
-  border-bottom: 2px #753FC7 solid;
+  border-bottom: 2px #753FC7 solid !important;
   width: 400px;
 }
 
@@ -44,8 +50,16 @@
 
 .btn-career{
   background-color: var(--bg-color-2) !important;
-  color: #ffffff !important;
+  color: #000000 !important;
   width: 250px !important;
+}
+
+.fs-36{
+  font-size: 36px !important;
+}
+
+.fs-46{
+  font-size: 40px !important;
 }
 
 .fs-64{
@@ -57,7 +71,7 @@
 }
 
 .color-palette-1{
-    color: var(--font-color-1);
+    color: var(--font-color-1) !important;
 }
 
 .color-palette-2{
@@ -88,22 +102,32 @@
   background-color: var(--bg-color-5) !important;
 }
 
+.bg-color-7{
+  background-color: var(--bg-color-6) !important;
+}
 
 body{
-  background-color: var(--bg-color-4) !important;
-  color: var(--font-color-3) !important;
+  background-color: var(--bg-color-1) !important;
+  color: var(--font-color-4) !important;
 }
 
 nav li a{
-  color: var(--font-color-3) !important;
+  color: var(--font-color-4) !important;
 }
 
-.active{
+nav .active{
   border-bottom: 1px solid #753FC7 !important;
+  font-weight: bold;
+}
+
+.dropdown-item .active{
+  border-bottom: 1px solid #753FC7 !important;
+  font-weight: bold;
+  background-color: transparent !important;
 }
 
 .card-text small{
-  color: var(--font-color-3) !important;
+  color: var(--font-color-4) !important;
 }
 
 .content-hero{
@@ -128,6 +152,12 @@ nav li a{
     width: 200px;
     background-color: var(--bg-color-5) !important;
     color: var(--bg-color-1) !important;
+}
+
+.lotus{
+  z-index: -1;
+  width: 350px;
+
 }
 
 /* client list */
@@ -209,6 +239,15 @@ nav li a{
     animation-play-state: paused;
   }
 
-  .carousel{
-    height: 450px !important;
+  .img_carousel{
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+  }
+
+  .bg-gradient-1{
+    background: linear-gradient(
+      rgba(0,0,0,0.4)
+      rgba(0,0,0,0)
+    ) !important;
   }
