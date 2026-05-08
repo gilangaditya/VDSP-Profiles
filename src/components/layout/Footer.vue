@@ -8,7 +8,7 @@
              <h3 class="fw-bold">Location</h3>
            </div>
            <div class="maps">
-             <img src="../assets/img/Rectangle 16.svg" class="img-fluid" alt="">
+             <img src="../../assets/img/Rectangle 16.svg" class="img-fluid" alt="">
            </div>
            <div class="address">
               <p class="">

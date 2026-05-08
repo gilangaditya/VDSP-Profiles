@@ -24,6 +24,12 @@
     color: var(--font-color-4) !important;
 }
 
+h1,h2,h3 {
+  font-family: 'Ovo', sans-serif;
+  font-weight: bold;
+  color: var(--font-color-4) !important;
+}
+
 .bg-glassmorph{
     background: rgba(255, 255, 255, 0.2) !important;
     border-radius: 16px !important;

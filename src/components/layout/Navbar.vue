@@ -4,7 +4,7 @@
          :class="{'bg-glassmorph': scrolled, 'bg-color-4': !scrolled}">
       <div class="container text-center ">
         <a class="navbar-brand d-flex justify-content-start gap-3 w-25" to="#">
-          <img src="../assets/img/logo/logo.png" alt="" class="img-fluid w-25">
+          <img src="../../assets/img/logo/logo.png" alt="" class="img-fluid w-25">
           <p class="fw-bold mt-auto mb-auto color-palette-4">VDSP</p>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,29 +16,40 @@
               <router-link class="nav-link" aria-current="page" to="/" exact-active-class="active">Beranda</router-link>
             </li>
             <li class="nav-item dropdown">
-              <router-link class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Inspirasi
-              </router-link>
+              </a>
               <ul class="dropdown-menu bg-glassmorph">
-                <li><router-link class="dropdown-item" to="#">Inspirasi</router-link></li>
-                <li><router-link class="dropdown-item" to="#">Ceramah</router-link></li>
+                <li><router-link class="dropdown-item" to="/inspiration">Inspirasi</router-link></li>
+                <li><router-link class="dropdown-item" to="/ceramah">Ceramah</router-link></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <router-link class="nav-link dropdown-toggle" to="#" active-class="active"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item dropdown" :class="{ active: $route.path.includes('/Activities') || $route.path.includes('/Sekolah-minggu') }">
+              <a class="nav-link dropdown-toggle" to="#" active-class="active"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Kegiatan
-              </router-link>
+              </a>
               <ul class="dropdown-menu bg-glassmorph">
-                <li><router-link class="dropdown-item" to="/Activities" active-class="active" exact-active-class="active">Kegiatan Rutin</router-link></li>
-                <li><router-link class="dropdown-item" to="/Sekolah-minggu">Sekolah Minggu</router-link></li>
-                <li><router-link class="dropdown-item" to="#">Pujabhakti</router-link></li>
+                <li>
+                  <router-link class="dropdown-item" to="/Activities" 
+                    :class="{ active: $route.path === '/Activities' }">
+                    Kegiatan Rutin
+                  </router-link>
+                </li>
+                <li>
+                  <router-link class="dropdown-item" to="/Sekolah-minggu"
+                    :class="{ active: $route.path === '/Sekolah-minggu' }">
+                    Sekolah Minggu
+                  </router-link>
+                </li>
+                <li><router-link class="dropdown-item" to="/pujabhakti">Pujabhakti</router-link></li>
+                <li><router-link class="dropdown-item" to="/gallery">Galeri Foto</router-link></li>
               </ul>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/Visit" exact-active-class="active">Tentang Vihara</router-link>
+              <router-link class="nav-link" to="/Visit">Tentang Vihara</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/" exact-active-class="active">Hubungi Kami</router-link>
+              <router-link class="nav-link" to="/donation">Hubungi Kami</router-link>
             </li>
           </ul>
           <form class="d-flex" role="search">

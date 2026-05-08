@@ -7,7 +7,7 @@
     <section class="header pt-4 h-25">
         <div class="container-fluid pt-2 mt-5 mb-5 pb-3">
             <div class="card border-0 rounded-5 m-0 ">
-                <img src="../assets/img/logo/Group 15(1).svg" class="card-img " alt="...">
+                <img src="../../assets/img/logo/Group 15(1).svg" class="card-img " alt="...">
                 <div class="card-img-overlay ms-5 top-50 start-0 translate-middle-y w-50">
                     <h5 class="card-title mb-4 fs-46">Knowledge Connection</h5>
                     <h5 class="card-title mb-4 fw-bold fs-46">Open the Door to the <span class="text-wavy">Future</span></h5>
